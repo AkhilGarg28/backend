@@ -1,3 +1,4 @@
+const { constants } = require('crypto');
 const http = require('http');
 const userData = {
     name: "Akhil",
@@ -20,4 +21,16 @@ const server = http.createServer((req, res) => {
     console.log('Server is running on http://localhost:4000');
     console.log('Try visiting: http://localhost:4000/user');
     console.log('Try visiting: http://localhost:4000/about');
+});
+
+
+const fs = require('fs');
+const path = require('path');
+const filePath = path.join(__dirname, 'data.txt');
+fs.writeFile(filePath, 'Hello, this is some sample data.', (err) => {
+    if (err) {
+        console.error('Error writing to file:', err); 
+    } else {
+        console.log('Data written to file successfully.');
+    }
 });

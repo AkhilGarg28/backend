@@ -1,0 +1,8 @@
+[18/2/2026, 11:14:14 am] Method: GET | Path: /
+[18/2/2026, 11:14:14 am] Method: GET | Path: /favicon.ico
+[18/2/2026, 11:17:02 am] Method: GET | Path: /
+[18/2/2026, 11:17:03 am] Method: GET | Path: /favicon.ico
+[18/2/2026, 11:25:07 am] Method: GET | Path: /
+[18/2/2026, 11:25:07 am] Method: GET | Path: /favicon.ico
+18/2/2026, 11:30:00 am - GET /
+18/2/2026, 11:30:00 am - GET /favicon.ico
